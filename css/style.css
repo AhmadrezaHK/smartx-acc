@@ -2,27 +2,27 @@
   font-family: VazirThin;
   font-style: normal;
   font-weight: 200;
-  src: url("./Vazir-Thin.ttf"); }
+  src: url("../font/Vazir-Thin.ttf"); }
 @font-face {
   font-family: VazirLight;
   font-style: normal;
   font-weight: 300;
-  src: url("./Vazir-Light.ttf"); }
+  src: url("../font/Vazir-Light.ttf"); }
 @font-face {
   font-family: VazirMedium;
   font-style: normal;
   font-weight: 400;
-  src: url("./Vazir-Medium.ttf"); }
+  src: url("../font/Vazir-Medium.ttf"); }
 @font-face {
   font-family: Vazir;
   font-style: normal;
   font-weight: 500;
-  src: url("./Vazir.ttf"); }
+  src: url("../font/Vazir.ttf"); }
 @font-face {
   font-family: VazirBold;
   font-style: normal;
   font-weight: 700;
-  src: url("./Vazir-Bold.ttf"); }
+  src: url("../font/Vazir-Bold.ttf"); }
 .w-80 {
   width: 80% !important; }
 
@@ -214,7 +214,7 @@ body {
     width: 650px; } }
 .services {
   background-color: #fff;
-  background-image: url("./bg-10.svg");
+  background-image: url("../img/bg-10.svg");
   padding-bottom: 4rem; }
   .services .row {
     align-items: stretch; }
@@ -318,7 +318,7 @@ body {
       width: 200px; }
 
 .faqs {
-  background-image: url("./faq-bg.png");
+  background-image: url("../img/faq-bg.png");
   padding: 0 5%; }
   .faqs .header {
     padding-top: 3rem;
@@ -385,6 +385,8 @@ body {
     border: none;
     border-bottom: 1px solid #aaa;
     padding: 0.5rem; }
+    .s-input input:focus {
+      outline: none; }
 
 /* The container */
 .checkmark-container {
@@ -454,7 +456,7 @@ body {
   background: #1889fc; }
 
 .register {
-  background-image: url("./register.svg");
+  background-image: url("../img/register.svg");
   padding: 4rem 0; }
   .register .register-box {
     background-color: #fff;

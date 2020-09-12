@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168080568-1"></script>
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168080568-1"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-168080568-1');
-        </script>
+        </script>-->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#f2f7fd">
-        <link rel="icon" href="./smartx-icon.png">
-        <link rel="stylesheet" href="./bootstrap.min.css" />
-        <link rel="stylesheet" href="./bootstrap-rtl.min.css" />
-        <link rel="stylesheet" href="./flickity.min.css" />
-        <link rel="stylesheet" href="./style.css?v=1.9" />
+        <link rel="icon" href="./img/smartx-icon.png">
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap-rtl.min.css" />
+        <link rel="stylesheet" href="./css/flickity.min.css" />
+        <link rel="stylesheet" href="./css/style.css?v=2" />
         <!-- <script src="./js/vue.js"></script> -->
-        <script src="./vue.min.js"></script>
-        <script src="./FieldInput.js?v=1.1"></script>
+        <script src="./js/vue.min.js"></script>
+        <script src="./js/FieldInput.js?v=1.1"></script>
         <!-- <script src="./vue-router.js"></script> -->
-        <script src="./data.js?v=1.9"></script>
+        <script src="./data/data.js?v=1.9"></script>
         <title>Smart X</title>
     </head>
     <body>
@@ -39,19 +39,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand d-lg-none mx-3" @click.prevent="show='MAIN'" style="cursor: pointer;">
-                    <img style="width: 170px;" src="./smartx-tagline.png" alt="" />
+                    <img style="width: 170px;" src="./img/smartx-tagline.png" alt="" />
                 </a>
 
                 <div class="collapse navbar-collapse px-0" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto pr-0 align-items-center">
                         <li class="nav-item px-lg-2 d-none d-lg-block">
                             <a class="nav-link smart-logo" @click.prevent="show='MAIN'">
-                                <img src="./smartx-tagline.png" alt="" />
+                                <img src="./img/smartx-tagline.png" alt="" />
                             </a>
                         </li>
                         <li class="nav-item px-xl-3 px-lg-2">
                             <a class="nav-link" @click.prevent="show='MAIN';closeNavbar()">
-                                <img style="width: 45px;" src="./home.svg" alt="" />
+                                <img style="width: 45px;" src="./img/home.svg" alt="" />
                             </a>
                         </li>
                         <li class="nav-item py-2 px-xl-3 px-lg-2">
@@ -77,13 +77,13 @@
                         </li>
                         <li class="nav-item py-2 px-xl-3 px-lg-2">
                             <div class="dropdown text-center social-dropdown">
-                                <img src="./link.svg" class="btn p-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
+                                <img src="./img/link.svg" class="btn p-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
                                  
                                 <div class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton">
                                     <div class="dropdown-item">
-                                        <a href="https://instagram.com/Smartx_Acc" target="_blank" class="d-inline-block"><img src="./instagram.svg" alt="" /></a>
-                                        <a href="https://t.me/Smartx_Acc" target="_blank" class="d-inline-block"><img src="./telegram.svg" alt="" /></a>
-                                        <a href="https://twitter.com/Smartx_Acc" target="_blank" class="d-inline-block"><img src="./twitter.svg" alt="" /></a>
+                                        <a href="https://instagram.com/Smartx_Acc" target="_blank" class="d-inline-block"><img src="./img/instagram.svg" alt="" /></a>
+                                        <a href="https://t.me/Smartx_Acc" target="_blank" class="d-inline-block"><img src="./img/telegram.svg" alt="" /></a>
+                                        <a href="https://twitter.com/Smartx_Acc" target="_blank" class="d-inline-block"><img src="./img/twitter.svg" alt="" /></a>
                                     </div>
                                 </div>
                             </div>   
@@ -104,7 +104,7 @@
                             </div>
                             <button @click="show='REGISTER'" class="btn btn-primary btn-lg rounded-pill py-3 px-5 mx-auto d-block">ثبت نام استارتاپ</button>
                         </div>
-                        <img src="./img-1.svg" alt=""/>
+                        <img src="./img/img-1.svg" alt=""/>
                     </div>
                     <div class="carousel-cell c-2">
                         <div class="desc-container pt-5 ml-5 mb-5">
@@ -114,12 +114,12 @@
                             </div>
                             <button @click="show='REGISTER'" class="btn btn-primary btn-lg rounded-pill py-3 px-5 mx-auto d-block">ثبت نام استارتاپ</button>
                         </div>
-                        <img src="./slider.png" alt="" class="mr-auto" />
+                        <img src="./img/slider.png" alt="" class="mr-auto" />
                     </div>
                 </div>
                 <div class="activities">
-                    <img src="./img-2.svg" class="img_1" alt="" />
-                    <img src="./img-3.svg" class="img_2" alt="" />
+                    <img src="./img/img-2.svg" class="img_1" alt="" />
+                    <img src="./img/img-3.svg" class="img_2" alt="" />
                     <div class="list">
                         <h2 class="header py-5">زمینه فعالیت شتابدهنده</h2>
                         <div class="activity-container">
@@ -164,10 +164,10 @@
                     </div>
                 </div>
                 <div class="process" id="processes">
-                    <img class="img-tr" src="./cloud-1.svg" alt="">
-                    <img class="img-tl" src="./cloud-2.svg" alt="">
-                    <img class="img-bl" src="./cloud-1.svg" alt="">
-                    <img class="img-br" src="./cloud-2.svg" alt="">
+                    <img class="img-tr" src="./img/cloud-1.svg" alt="" />
+                    <img class="img-tl" src="./img/cloud-2.svg" alt="" />
+                    <img class="img-bl" src="./img/cloud-1.svg" alt="" />
+                    <img class="img-br" src="./img/cloud-2.svg" alt="" />
                     <h2 class="header text-center py-5 position-relative">فرآیند شتابدهی</h2>
                     <div class="prc-container">
                         <div class="prc mb-4" v-for="(process, index) in processes">
@@ -201,14 +201,14 @@
                 <!-- <div class="noble-coworkers">
                     <h2 class="header text-center py-5">همکاران برجسته</h2>
                     <div class="img-container">
-                        <img src="./benda.png" alt="">
-                        <img src="./sbu.png" alt="">
+                        <img src="./img/benda.png" alt="">
+                        <img src="./img/sbu.png" alt="">
                     </div>
                 </div> -->
             </div>
             <div v-if="show === 'ABOUT_US'" class="about-us">
-                <img class="img-l" src="./scifi-1.svg" alt="">
-                <img class="img-r" src="./scifi.svg" alt="">
+                <img class="img-l" src="./img/scifi-1.svg" alt="">
+                <img class="img-r" src="./img/scifi.svg" alt="">
                 <h2 class="header text-center py-5">درباره‌ی ما</h2>
                 <div class="w-80 mx-auto">
                     <div class="desc">{{aboutUs[lang].desc}}</div>
@@ -226,12 +226,12 @@
             <div v-if="show === 'REGISTER'" class="register">
                 <h2 class="header py-5 text-center">فرم درخواست پذیرش در شتابدهنده اسمارت ایکس</h2>
                 <div class="register-box">
-                    <p style="line-height: 2.5;font-size: 18px;">
+                    <!--<p style="line-height: 2.5;font-size: 18px;">
                         برای درخواست پذیرش در شتابدهنده اسمارت ایکس فرم ثبت نام را از <a href="./register.docx">اینجا</a> دانلود کنید و پس از تکمیل دقیق فرم، آن را به ایمیل <a href="mailto:info@smartxacc.ir">info@smartxacc.ir</a> ارسال فرمایید.
                         چنانچه اسناد business model یا business plan نیز تهیه نموده اید به همراه فرم درخواست پذیرش به ایمیل ذکر شده ارسال فرمایید. 
-                    </p>
+                    </p>-->
                 
-                    <!-- <div class="register-section">
+                     <div class="register-section">
                         <h3 class="title">مشخصات نماینده تیم</h3>
                         <div class="row">
                             <div v-for="(field, index) in register.representative" class="col-sm-6 mb-5">
@@ -263,7 +263,7 @@
                         <h3 class="title">مشخصات اعضای تیم</h3>
                         <div v-for="(m, index) in register.members" class="member">
                             <div class="d-flex align-items-center mb-5">
-                                <img v-if="index>0" src="./remove_member.svg" style="cursor: pointer;" @click="removeMember(index)" alt="" />
+                                <img v-if="index>0" src="./img/remove_member.svg" style="cursor: pointer;" @click="removeMember(index)" alt="" />
                                 <h4 class="mr-3">نفر {{ numToPer[index + 1] }}</h4>
                             </div>
                             <div class="row">
@@ -281,7 +281,7 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="./add_member.svg" style="cursor: pointer;" @click="addMember" alt="" />
+                        <img src="./img/add_member.svg" style="cursor: pointer;" @click="addMember" alt="" />
                     </div>
                     <div class="register-section">
                         <h3 class="title">استارتاپ</h3>
@@ -359,19 +359,19 @@
                             </button>
                             <div v-if="error_inform" class="text-danger text-center pt-4">{{error_inform}}</div>
                         </form>
-                    </div> -->
+                    </div> 
                 </div>
             </div>
             <div v-if="show === 'CONTACT_US'" class="contact-us">
-                <img src="./contact-us.svg" class="img-1" alt="" />
-                <!-- <img src="./img-6.svg" class="img-2" alt="" /> -->
+                <img src="./img/contact-us.svg" class="img-1" alt="" />
+                <!-- <img src="./img/img-6.svg" class="img-2" alt="" /> -->
                 <div>
                     <div class="row align-items-center main-container">
                         <h2 class="header col-12 py-5 text-center">تماس با ما</h2>
                         <div class="info-container col-sm-7 col-12 order-1 order-sm-0">
                             <div class="d-flex flex-column align-items-start mb-4">
                                 <div class="d-flex mb-2">
-                                    <img class="ml-3" src="./phone.svg" alt="" />
+                                    <img class="ml-3" src="./img/phone.svg" alt="" />
                                     <h4 class="mb-1">شماره تلفن</h4>
                                 </div>
                                 <div style="padding-right: 55px;">۰۹۰۲-۲۸۵-۲۹۶۸</div>
@@ -379,25 +379,25 @@
                             </div>
                             <div class="d-flex flex-column align-items-start mb-4">
                                 <div class="d-flex mb-2">
-                                    <img class="ml-3" src="./mail.svg" alt="" />
+                                    <img class="ml-3" src="./img/mail.svg" alt="" />
                                     <h4 class="mb-1">ایمیل</h4>
                                 </div>
                                 <div style="padding-right: 55px;">info@smartxacc.ir</div>
                             </div>
                             <div class="d-flex flex-column align-items-start mb-4">
                                 <div class="d-flex mb-2">
-                                    <img class="ml-3" src="./location.svg" alt="" />
+                                    <img class="ml-3" src="./img/location.svg" alt="" />
                                     <h4 class="mb-1">آدرس</h4>
                                 </div>
                                 <div style="padding-right: 55px;">تهران، خیابان ونک، نرسیده به اتوبان کردستان، جنب بوستان آرارات، پلاک ۴۹، طبقه ۲، واحد ۳</div>
                             </div>
                             <div class="d-flex pt-3">
-                                <a href="https://instagram.com/Smartx_Acc" target="_blank" class="ml-3 mr-auto"><img src="./instagram.svg" alt="" /></a>
-                                <a href="https://t.me/Smartx_Acc" target="_blank" class="ml-3"><img src="./telegram.svg" alt="" /></a>
-                                <a href="https://twitter.com/Smartx_Acc" target="_blank" class="d-inline-block ml-auto"><img src="./twitter.svg" alt="" /></a>
+                                <a href="https://instagram.com/Smartx_Acc" target="_blank" class="ml-3 mr-auto"><img src="./img/instagram.svg" alt="" /></a>
+                                <a href="https://t.me/Smartx_Acc" target="_blank" class="ml-3"><img src="./img/telegram.svg" alt="" /></a>
+                                <a href="https://twitter.com/Smartx_Acc" target="_blank" class="d-inline-block ml-auto"><img src="./img/twitter.svg" alt="" /></a>
                             </div>
                         </div>
-                        <img class="map mb-5 mb-sm-0 col-sm-5 col-12" src="./map.png" alt="">
+                        <img class="map mb-5 mb-sm-0 col-sm-5 col-12" src="./img/map.png" alt="">
                     </div>
                 </div>
             </div>
@@ -433,13 +433,13 @@
                                 <li>
                                     <ul class="social-icons px-0">
                                         <li>
-                                            <a href="https://instagram.com/Smartx_Acc" target="_blank" class="ml-2"><img style="width: 35px" src="./instagram.svg" alt="" /></a>
+                                            <a href="https://instagram.com/Smartx_Acc" target="_blank" class="ml-2"><img style="width: 35px" src="./img/instagram.svg" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="https://t.me/Smartx_Acc" target="_blank" class="ml-2"><img style="width: 35px" src="./telegram.svg" alt="" /></a>
+                                            <a href="https://t.me/Smartx_Acc" target="_blank" class="ml-2"><img style="width: 35px" src="./img/telegram.svg" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/Smartx_Acc" target="_blank" class="ml-2"><img style="width: 35px" src="./twitter.svg" alt="" /></a>
+                                            <a href="https://twitter.com/Smartx_Acc" target="_blank" class="ml-2"><img style="width: 35px" src="./img/twitter.svg" alt="" /></a>
                                         </li>  
                                     </ul>
                                 </li>
@@ -463,7 +463,7 @@
                                 </li>
                                 <li class="mb-2">
                                     <a href="http://parspack.com/" target="_blank" class="ml-2">
-                                        <img style="width: 75px" src="./parsPack.jpeg" alt="" />
+                                        <img style="width: 75px" src="./img/parsPack.jpeg" alt="" />
                                     </a>
                                 </li>
                             </ul>
@@ -483,15 +483,15 @@
                 </footer>
             </div>
         </div>
-        <script src="./flickity.pkgd.min.js"></script>
-        <script src="./font-awesome.js"></script>
-        <script src="./jquery-3.5.1.min.js"></script>
-        <script src="./popper.min.js"></script>
-        <script src="./bootstrap.min.js"></script>
-        <script src="./jspdf.debug.js"></script>
-        <script src="./SAHEL-FD-normal.js"></script>
-        <script src="./jszip.min.js"></script>
-        <script src="./filesaver.min.js"></script>
+        <script src="./js/flickity.pkgd.min.js"></script>
+        <script src="./js/font-awesome.js"></script>
+        <script src="./js/jquery-3.5.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/jspdf.debug.js"></script>
+        <script src="./js/SAHEL-FD-normal.js"></script>
+        <script src="./js/jszip.min.js"></script>
+        <script src="./js/filesaver.min.js"></script>
         <script>
             var app = new Vue({
                 el: "#app",
